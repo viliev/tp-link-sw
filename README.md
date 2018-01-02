@@ -19,9 +19,9 @@ Just run any of the 'expect'-scripts.
 
 #### Author:
 
-Vasil Iliev\n
-[http://viliev.org](http://viliev.org)\n
-Email: viliev → AT → viliev.org'n
+Vasil Iliev
+[http://viliev.org](http://viliev.org)
+Email: viliev → AT → viliev.org
 
 #### License:
 
