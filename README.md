@@ -27,6 +27,6 @@ Email: viliev → AT → viliev.org
 
 #### License:
 
-###### The GNU General Public License v3.0
+The GNU General Public License v3.0
 
 
