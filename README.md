@@ -20,9 +20,7 @@ Just run any of the 'expect'-scripts.
 #### Author:
 
 Vasil Iliev
-
-[http://viliev.org](http://viliev.org)
-
+[http://viliev.org]
 Email: viliev → AT → viliev.org
 
 #### License:
