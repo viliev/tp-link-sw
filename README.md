@@ -21,9 +21,9 @@ Just run any of the 'expect'-scripts.
 
 #### Author:
 
-Vasil Iliev
-[viliev.org](http://viliev.org)
-Email: viliev → AT → viliev.org
+Vasil Iliev  
+[viliev.org](http://viliev.org)  
+Email: viliev → AT → viliev.org  
 
 #### License:
 
