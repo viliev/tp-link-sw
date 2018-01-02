@@ -1,0 +1,41 @@
+#!/usr/bin/expect -f
+
+### Version 1.1 Vasil Iliev viliev@viliev.org 02.01.2018 for TP-Link Switch T2600G-52TS
+###  Usage: ./backup-sw-tftp-t2600 192.168.XX.XX admin password enablepassword
+
+
+set hostname [lindex $argv 0]
+set username [lindex $argv 1]
+set password [lindex $argv 2]
+set enablepassword [lindex $argv 3]
+set tftpip [lindex $argv 4]
+set file [lindex $argv 5]
+
+if { $hostname == "" || $username == "" || $password == "" || $enablepassword == "" || $tftpip ==  "" || $file == ""}  {
+  puts "Usage: <hostname> <username> <password> <enablepassword> <tftp-server-ip> <file-name>\n"
+  exit 1
+}
+
+set timeout 20
+### Debian 9
+#spawn ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss -l$username "$hostname"
+### Debian 8 
+spawn ssh -l$username "$hostname"
+expect "$username@$hostname's password:"
+send "$password"
+send "\r"
+expect ">"
+send "enable\r"
+expect "Password:"
+send "$enablepassword\r"
+expect "#"
+send "enable-admin\r"
+expect "#"
+send "copy running-config startup-config\r"
+expect "#"
+send "copy startup-config tftp ip-address $tftpip filename $file\r"
+expect "#"
+send "exit\r"
+expect ">"
+send "exit\n"
+
