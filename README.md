@@ -17,13 +17,13 @@ Just run any of the 'expect'-scripts.
 
 	./backup-sw-tftp-t2600 192.168.XX.XX admin password enablepassword 192.168.XX.1 config 
 
-#### Author
+#### Author:
 
-Vasil Iliev
-[http://viliev.org](http://viliev.org)
-Email: viliev → AT → viliev.org
+Vasil Iliev\n
+[http://viliev.org](http://viliev.org)\n
+Email: viliev → AT → viliev.org'n
 
-#### License
+#### License:
 
 ###### The GNU General Public License v3.0
 
