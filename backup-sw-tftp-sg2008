@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-### Version 1.1 Vasil Iliev viliev@viliev.org 02.01.2018 for TP-Link Switch SG208
+### Version 1.1 Vasil Iliev 02.01.2018 for TP-Link Switch SG208
 ###  Usage: ./backup-sw-tftp-sg2008 192.168.XX.XX admin password
 
 

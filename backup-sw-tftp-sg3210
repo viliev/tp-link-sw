@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-### Version 1.1 Vasil Iliev viliev@viliev.org 02.01.2018 for TP-Link Switch SG3210
+### Version 1.1 Vasil Iliev 02.01.2018 for TP-Link Switch SG3210
 ###  Usage: ./backup-sw-tftp-sg3210 192.168.XX.XX admin password enablepassword
 
 
